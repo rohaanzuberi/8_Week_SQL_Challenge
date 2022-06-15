@@ -31,7 +31,15 @@ ORDER BY
 
 
 ### Q2. How many days has each customer visited the restaurant?
-
+```SQL
+SELECT
+  customer_id,
+  -- are we missing anything?
+  COUNT(DISTINCT(order_date))
+FROM dannys_diner.sales
+GROUP BY customer_id;
+```
+>`DISTINCT` was used to ensure date is counted only once if a customer decides to visit the restaurant more than once on that date.
 
 
 ### Q3. What was the first item from the menu purchased by each customer?
