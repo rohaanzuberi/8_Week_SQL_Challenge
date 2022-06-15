@@ -1,6 +1,6 @@
 # 🤓 8 Week SQL Challenge
 
-This repository consists of the #8WeekSQLChallenge case studies created by Danny as part of the Serious SQL learning experience.
+This repository consists of the #8WeekSQLChallenge case studies as part of the [Serious SQL](https://github.com/rohaanzuberi/Serious_SQL/blob/a08c0ee645de0a8772b34d754092baab4728eb43/README.md) learning experience.
 
 ## 📑 Table of Contents
 - Case Study #1: Danny's Diner (ongoing)
